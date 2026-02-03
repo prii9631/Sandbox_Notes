@@ -1,4 +1,5 @@
 What is salesforce sandbox?
+
 1.A salesforce sandbox is an isolated copy of your production
 environment that allows teams to safely test changes,
 new features and code without risking live data.
