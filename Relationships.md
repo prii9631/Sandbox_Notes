@@ -10,7 +10,7 @@ TYPE OF RELATIONSHIPS IN SALESFORCE
 6. Indirect Lookup
 7. Hierarchical
 
-1.LOOKUP RELATIONSHIP
+1. LOOKUP RELATIONSHIP
 
 What it is:
 A Lookup relationship is a loose connection between two objects. It’s like having someone’s business card - you know how to contact them, but you’re not dependent on them.
@@ -30,7 +30,7 @@ Account
 Opportunity 
  Campaign: An opportunity might be influenced by a campaign, but it's not dependent on it
  
-MASTER-DETAIL RELATIONSHIP
+2. MASTER-DETAIL RELATIONSHIP
 
 What it is:
 A Master-Detail relationship creates a tightly coupled parent-child connection. It's like a parent-child relationship where the child cannot exist without the parent.
@@ -63,6 +63,7 @@ HOW IT WORKS:
 * One to each of the objects you want to connect
 
 CHARACTERISTICS:
+
 * Flexible connections - Many records can relate to many other records
 * Junction object holds the relationship data
 * Both sides are masters - Junction object is detail to both
